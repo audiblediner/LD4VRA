@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="http://www.schema.org/"
+   xmlns:vra="http://ld4vra.org/core#"
+>
+  <rdf:Description rdf:about="http://ld4vra.org/resources/i_106">
+    <dcterms:description xml:lang="en">Facade was planned (ca. 1516-1521) by Michelangelo under the patronage of Pope Leo X but never completed.</dcterms:description>
+    <vra:imageOf rdf:resource="http://ld4vra.org/resources/w_7"/>
+    <rdf:type rdf:resource="http://ld4vra.org/core#Image"/>
+    <dcterms:subject rdf:resource="http://ld4vra.org/conceptScheme/1027"/>
+    <vra:rights>© Davis Art Images</vra:rights>
+    <dcterms:title xml:lang="en">Detail, unfinished facade</dcterms:title>
+    <vra:workType rdf:resource="http://ld4vra.org/conceptScheme/1035"/>
+    <vra:sizeInMB rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</vra:sizeInMB>
+    <vra:source>http://www.casabuonarroti.it/</vra:source>
+    <vra:technique rdf:resource="http://ld4vra.org/conceptScheme/1034"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/people/diBartolomeoMichelozzo">
+    <vra:earliestLifeDate>1396 ^^xsd:gYear</vra:earliestLifeDate>
+    <vra:familyName>di Bartolomeo</vra:familyName>
+    <vra:givenName>Michelozzo</vra:givenName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person/Person"/>
+    <vra:culture rdf:resource="http://ld4vra.org/conceptScheme/1001"/>
+    <vra:latestLifeDate>1472 ^^xsd:gYear</vra:latestLifeDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/resources/w_7">
+    <vra:stylePeriod rdf:resource="http://vocab.getty.edu/aat/300021140"/>
+    <vra:modelIs rdf:resource="http://ld4vra.org/resources/w_6"/>
+    <vra:imageIs rdf:resource="http://ld4vra.org/resources/i_106"/>
+    <dcterms:subject rdf:resource="http://ld4vra.org/conceptScheme/1017"/>
+    <vra:workType>buildings</vra:workType>
+    <vra:architectIs rdf:resource="http://ld4vra.org/people/diBartolomeoMichelozzo"/>
+    <dcterms:medium rdf:resource="http://ld4vra.org/conceptScheme/1010"/>
+    <vra:nation rdf:resource="http://vocab.getty.edu/tgn/1000080"/>
+    <vra:region rdf:resource="http://vocab.getty.edu/tgn/7009760"/>
+    <dcterms:title xml:lang="it">Basilica di San Lorenzo</dcterms:title>
+    <vra:technique rdf:resource="http://vocab.getty.edu/aat/300054608"/>
+    <vra:preferredTitle>San Lorenzo, Florence</vra:preferredTitle>
+    <vra:workType rdf:resource="http://vocab.getty.edu/aat/300170443"/>
+    <dcterms:subject rdf:resource="http://ld4vra.org/conceptScheme/1018"/>
+    <dcterms:medium rdf:resource="http://ld4vra.org/conceptScheme/1012"/>
+    <rdf:type rdf:resource="http://ld4vra.org/core#Work"/>
+    <dcterms:subject rdf:resource="http://ld4vra.org/conceptScheme/1028"/>
+    <vra:place rdf:resource="http://vocab.getty.edu/tgn/7000457"/>
+    <dcterms:subject rdf:resource="http://vocab.getty.edu/ulan/500114961"/>
+    <schema:continent rdf:resource="http://vocab.getty.edu/tgn/1000003"/>
+    <vra:architectIs rdf:resource="http://ld4vra.org/people/BrunelleschiFilippo"/>
+    <vra:hasLocation rdf:resource="http://ld4vra.org/core#site"/>
+    <vra:workType rdf:resource="http://vocab.getty.edu/aat/300007466"/>
+    <vra:workType rdf:resource="http://vocab.getty.edu/aat/300007391"/>
+    <dcterms:medium rdf:resource="http://ld4vra.org/conceptScheme/1011"/>
+    <vra:dateCreated>begun 1418 - ca. 1700 (inclusive)</vra:dateCreated>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/resources/w_6">
+    <vra:depthInCM>50 ^^xsd:decimal</vra:depthInCM>
+    <vra:architectIs rdf:resource="http://ld4vra.org/core#BuonarrotiMichelangelo"/>
+    <dcterms:title xml:lang="en">Wooden Model for the Façade of San Lorenzo, Florence</dcterms:title>
+    <rdf:type rdf:resource="http://ld4vra.org/core#Work"/>
+    <vra:workType rdf:resource="http://vocab.getty.edu/aat/300047753"/>
+    <dcterms:medium rdf:resource="http://vocab.getty.edu/aat/300012620"/>
+    <dcterms:medium xml:lang="en">other wood</dcterms:medium>
+    <vra:culture rdf:resource="http://ld4vra.org/conceptScheme/1001"/>
+    <vra:locationIs rdf:nodeID="ub27bL48C20"/>
+    <dcterms:medium xml:lang="en">traces of white lead paint and gesso</dcterms:medium>
+    <vra:widthInCM>283 ^^xsd:decimal</vra:widthInCM>
+    <dcterms:medium rdf:resource="http://vocab.getty.edu/aat/300015052"/>
+    <vra:stylePeriod rdf:resource="http://vocab.getty.edu/aat/300021140"/>
+    <vra:patronIs rdf:resource="http://ld4vra.org/people/LeoXPope"/>
+    <dcterms:medium rdf:resource="http://vocab.getty.edu/aat/300014952"/>
+    <vra:technique rdf:resource="http://vocab.getty.edu/aat/300054608"/>
+    <vra:imageIs rdf:resource="http://ld4vra.org/resources/i_105"/>
+    <vra:heightInCM>216 ^^xsd:decimal</vra:heightInCM>
+    <vra:modelOf rdf:resource="http://ld4vra.org/resources/w_7"/>
+    <dcterms:medium rdf:resource="http://vocab.getty.edu/aat/300375376"/>
+    <dcterms:medium rdf:resource="http://vocab.getty.edu/aat/30001254"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/people/BrunelleschiFilippo">
+    <vra:givenName>Filippo</vra:givenName>
+    <vra:culture rdf:resource="http://ld4vra.org/conceptScheme/1001"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person/Person"/>
+    <vra:familyName>Brunelleschi</vra:familyName>
+    <vra:earliestLifeDate>1377 ^^xsd:gYear</vra:earliestLifeDate>
+    <vra:latestLifeDate>1446 ^^xsd:gYear</vra:latestLifeDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/people/LeoXPope">
+    <vra:architectFor rdf:resource="http://ld4vra.org/resources/w_6"/>
+    <vra:earliestLifeDate>1475 ^^xsd:gYear</vra:earliestLifeDate>
+    <schema:name>Pope Leo X</schema:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person/Person"/>
+    <vra:culture rdf:resource="http://ld4vra.org/conceptScheme/1001"/>
+    <vra:latestLifeDate>1521 ^^xsd:gYear</vra:latestLifeDate>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub27bL48C20">
+    <vra:site rdf:resource="http://ld4vra.org/conceptScheme/1043"/>
+    <vra:nation rdf:resource="http://vocab.getty.edu/tgn/1000080"/>
+    <vra:region rdf:resource="http://vocab.getty.edu/tgn/7009760"/>
+    <vra:locationType rdf:resource="http://vocab.getty.edu/aat/300150151"/>
+    <vra:place rdf:resource="http://vocab.getty.edu/tgn/7000457"/>
+    <schema:continent rdf:resource="http://vocab.getty.edu/tgn/1000003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/resources/i_105">
+    <vra:source>http://www.casabuonarroti.it/</vra:source>
+    <vra:workType rdf:resource="http://ld4vra.org/conceptScheme/1035"/>
+    <vra:imageOf rdf:resource="http://ld4vra.org/resources/w_6"/>
+    <dcterms:title xml:lang="en">Overall facade view of the model</dcterms:title>
+    <vra:sizeInKB>250 ^^xsd:decimal</vra:sizeInKB>
+    <vra:technique rdf:resource="http://ld4vra.org/conceptScheme/1034"/>
+    <rdf:type rdf:resource="http://ld4vra.org/core#Image"/>
+    <vra:rights rdf:resource="http://ld4vra.org/conceptScheme/1042"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/people/BuonarrottiMichelangelo">
+    <vra:latestLifeDate>1564 ^^xsd:gYear</vra:latestLifeDate>
+    <vra:familyName>Buonarroti</vra:familyName>
+    <vra:culture rdf:resource="http://ld4vra.org/conceptScheme/1001"/>
+    <vra:earliestLifeDate>1475 ^^xsd:gYear</vra:earliestLifeDate>
+    <vra:givenName>Michelangelo</vra:givenName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person/Person"/>
+  </rdf:Description>
+</rdf:RDF>

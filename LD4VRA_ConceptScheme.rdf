@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1020">
+    <skos:scopeNote xml:lang="en-US">Related to works composed primarily of beautiful, elegant letters or flourishes that are typically created by hand with a pen, either in unjoined characters or in cursive writing.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:prefLabel xml:lang="en-US">calligraphy</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500017255">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:exactMatch rdf:resource="http://ld4vra.org/people/JeffersonThomas"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300054698">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300053162">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1038">
+    <skos:scopeNote xml:lang="en-US">District in Paris, France</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:prefLabel xml:lang="fr">Montmarte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300004792">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:narrowerTransitive rdf:resource="http://vocab.getty.edu/aat/300007391"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300150151"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1036">
+    <skos:scopeNote xml:lang="en-US">Of or relating to the cultural of Switzerland</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:prefLabel xml:lang="en-US">Swiss</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1003">
+    <skos:broader rdf:resource="http://ld4vra.org/conceptScheme/900"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">A person responsible for the intellectual content of books or other writings, namely one who writes or otherwise composes books, articles, poems, plays, or other works which involve literary composition. The works are often, but not always, intended for publication.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">author</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh80039712">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1041">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:scopeNote xml:lang="en-US">The National Portrait Gallery is a historic art museum in Washington, D.C. which focuses on images of famous Americans. It is part of the Smithsonian Institution.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">National Portrait Gallery [Smithsonian Institution]</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7000457">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1012">
+    <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300011443"/>
+    <skos:prefLabel xml:lang="en-US">stone</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ld4vra.org/conceptScheme/1011"/>
+    <skos:scopeNote xml:lang="en-US">A hard substance that comes from the ground and is used for building, carving, etc.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300054608">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1013">
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300015012"/>
+    <skos:prefLabel xml:lang="en-US">ink on paper</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">an artistic or writing medium that uses ink on paper.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1014">
+    <skos:scopeNote xml:lang="en-US">an artistic or writing medium that uses ink on parchment.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:prefLabel xml:lang="en-US">ink on parchment</skos:prefLabel>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300015012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7008038">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300149157">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1015">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">A mixed media artistic technique that uses both watercolor and pencil.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">watercolor and pencil on board</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1005">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:prefLabel xml:lang="en-US">patron</skos:prefLabel>
+    <skos:scopeNote xml:lang="en-US">One who uses their means or influence to benefit individuals, institutions, or causes; especially those who support the work of artists and writers, and including those who commission and pay for individual works.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:broader rdf:resource="http://ld4vra.org/conceptScheme/900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1031">
+    <skos:scopeNote xml:lang="en-US">An implicit agreement among the members of a society to cooperate for social benefit</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:prefLabel xml:lang="en-US">social contract</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7017752">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1017">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:scopeNote xml:lang="en-US">The design of a outside facing surface in architecture.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300263552"/>
+    <skos:prefLabel xml:lang="en-US">architectural exteriors</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85008315">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1035">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:scopeNote xml:lang="en-US">An electronic snapshot taken of a scene or scanned from documents, such as photographs, manuscripts, printed texts, and artwork</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">digital image</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85041401">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1016">
+    <skos:prefLabel xml:lang="en-US">public domain</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">The status of publications, products, and processes that are not protected under patent or copyright.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1011">
+    <skos:scopeNote xml:lang="en-US">A gray sandstone used extensively in Renaissance Florence for architectural details.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">pietra serena</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300011376"/>
+    <skos:broader rdf:resource="http://ld4vra.org/conceptScheme/1012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1029">
+    <skos:prefLabel xml:lang="en-US">San Lorenzo (Florence, Italy)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">Related to the San Lorenzo Basilica in Florence, Italy.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/">
+    <dc:creator>Emily Whitacre</dc:creator>
+    <dc:title>LD4VRA Concept Scheme</dc:title>
+    <dc:creator>Liz Pritchard</dc:creator>
+    <dc:creator>Kelly Colht</dc:creator>
+    <dc:description>This controlled vocabulary defines concepts for use in VRA Linked Data.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dc:creator>Cathy Hardin</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300054196">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7012149">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500017451">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:exactMatch rdf:resource="http://ld4vra.org/people/SteinlenTheophileAlexandre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85139020">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1024">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:scopeNote xml:lang="en-US">Representative of the process of making something slowly end or disappear.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">dissolution</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300170443">
+    <skos:boarder rdf:resource="http://vocab.getty.edu/aat/300007391"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300007391">
+    <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300007466"/>
+    <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300170443"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:broaderTransitive rdf:resource="http://vocab.getty.edu/aat/300004792"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1021">
+    <skos:prefLabel xml:lang="en-US">carpentry</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">Related to works or parts of works made with wood, especially such work used in the construction of buildings and other structures.</skos:scopeNote>
+    <skos:prefLabel xml:lang="it">carpenteria</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1008">
+    <skos:scopeNote xml:lang="en-US">Of or relating to the culture of Italy.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:prefLabel xml:lang="en-US">Italian</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7009760">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1028">
+    <skos:scopeNote xml:lang="en-US">Related to people assigned as a direct authority over others.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">rulers and leaders</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300021140">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300007466">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300007391"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500010654">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:exactMatch rdf:resource="http://ld4vra.org/people/BuonarrottiMichelangelo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1026">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">Related to the state of being politically independent</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">independence</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1032">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:prefLabel xml:lang="en-US">textual work</skos:prefLabel>
+    <skos:scopeNote xml:lang="en-US">A work relating to or based on a piece of writing</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300375376">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300047753">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/1000003">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/1000001">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/900">
+    <skos:narrower rdf:resource="http://ld4vra.org/conceptScheme/1001"/>
+    <skos:narrower rdf:resource="http://ld4vra.org/conceptScheme/1002"/>
+    <skos:narrower rdf:resource="http://ld4vra.org/conceptScheme/1000"/>
+    <skos:narrower rdf:resource="http://ld4vra.org/conceptScheme/1004"/>
+    <skos:narrower rdf:resource="http://ld4vra.org/conceptScheme/1003"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:scopeNote xml:lang="en-US">An individual that acts or has the power to act.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">Agent</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ld4vra.org/conceptScheme/1005"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1043">
+    <skos:prefLabel xml:lang="en-US">Casa Buonarroti</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">The site of a museum in Florence once owned by Michelangelo Buonarroti and now a museum housing his works.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1037">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">Museum and Repository of Art in Santa Barbara, CA</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">Santa Barabara Museum of Art</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1001">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:prefLabel xml:lang="en-US">Italian</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">A person of or coming from Italy</skos:scopeNote>
+    <skos:broader rdf:resource="http://ld4vra.org/conceptScheme/900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1010">
+    <skos:scopeNote xml:lang="en-US">A metamorphic, hard, dense, crystalline stone primarily composed of calcium carbonate; it is limestone or dolomite that has been metamorphosed with heat and pressure.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300011443"/>
+    <skos:prefLabel xml:lang="en-US">marble</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7013962">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300021430">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500021398">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1034">
+    <skos:scopeNote xml:lang="en-US">The creation of digital images</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">digital imaging</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1018">
+    <skos:scopeNote xml:lang="en-US">The design of a space which has been created by structural boundaries.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300263552"/>
+    <skos:prefLabel xml:lang="en-US">architectural interiors</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/300078925">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7007157">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300012540">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300012510"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1033">
+    <skos:scopeNote xml:lang="en-US">The style, arrangement, or appearance of printed letters on a page</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:prefLabel xml:lang="en-US">typography</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85140139">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1042">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:prefLabel xml:lang="en-US">Undetermined</skos:prefLabel>
+    <skos:scopeNote xml:lang="en-US">Refers to when the rights status of a resource in undetermined.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500018169">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:exactMatch rdf:resource="http://ld4vra.org/people/BrunelleschiFilippo"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1000">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">A person of or coming from the United States of America.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">American</skos:prefLabel>
+    <skos:broader rdf:resource="http://ld4vra.org/conceptScheme/900"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh90003247.html">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500032603">
+    <skos:exactMatch rdf:resource="http://ld4vra.org/people/diBartolomeoMichelozzo"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300053279">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300012620">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300012510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300028569">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1019">
+    <skos:scopeNote xml:lang="en-US">A type of modeling in which a scale model is built to study aspects of an architectural design.</skos:scopeNote>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300263552"/>
+    <skos:prefLabel xml:lang="en-US">architectural modeling</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/1000080">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1030">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:prefLabel xml:lang="en-US">separation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en-US">The action or state of moving or being moved apart.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/subjects/sh85091984">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300015578">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n82142925">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7002883">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1025">
+    <skos:scopeNote xml:lang="en-US">A country in the United Kingdom.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">England</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1022">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:prefLabel xml:lang="en-US">colonies</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">Related to a body of people living in a new territory but retaining ties with the parent state or  the territory inhabited by such a body.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500121783">
+    <skos:exactMatch rdf:resource="http://ld4vra.org/people/LeoXPope"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1004">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:scopeNote xml:lang="en-US">An artist who specializes in creating drawings, prints, or other pictures intended to elucidate a description, story, or other written material, usually in a book or periodical.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">illustrator</skos:prefLabel>
+    <skos:broader rdf:resource="http://ld4vra.org/conceptScheme/900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/7015717">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300015052">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1002">
+    <skos:scopeNote xml:lang="en-US">A person trained in or practicing architecture, which is the art of designing and building habitable structures, especially those considered to have aesthetic value.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en-US">architect</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:broader rdf:resource="http://ld4vra.org/conceptScheme/900"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300027221">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1023">
+    <skos:scopeNote xml:lang="en-US">Representations that visualize architectural projects in three dimensions, often including a representation of the surrounding site or context, and often, but not necessarily, built to scale.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:prefLabel xml:lang="en-US">construction models</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n82148021">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1007">
+    <skos:prefLabel xml:lang="en-US">French</skos:prefLabel>
+    <skos:scopeNote xml:lang="en-US">Of or relating to the culture of France.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1039">
+    <skos:prefLabel xml:lang="en-US">San Lorenzo</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:scopeNote xml:lang="en-US">Location in Italy</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ld4vra.org/conceptScheme/1006">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:prefLabel xml:lang="en-US">American</skos:prefLabel>
+    <skos:scopeNote xml:lang="en-US">Of or relating to the culture of the United States of America.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n85324477?">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n79109028.html">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/tgn/1000070">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300012510">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300012540"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300012620"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n94056291">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300150151">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300004792"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/aat/300014952">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500114961">
+    <skos:inScheme rdf:resource="http://ld4vra.org/conceptScheme/"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+  </rdf:Description>
+</rdf:RDF>
+
+
+

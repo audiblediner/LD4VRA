@@ -1,0 +1,107 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://www.schema.org/> .
+@prefix vra: <http://ld4vra.org/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+# POPE LEO X
+<http://ld4vra.org/people/LeoXPope> a <http://xmlns.com/foaf/0.1/Person/Person> ;
+    vra:architectFor <http://ld4vra.org/resources/w_6> ;
+    vra:culture <http://ld4vra.org/conceptScheme/1001> ;
+    vra:earliestLifeDate "1475 ^^xsd:gYear" ;
+    vra:latestLifeDate "1521 ^^xsd:gYear" ;
+    schema:name "Pope Leo X" .
+
+# FILIPPO BRUNELLESCHI
+<http://ld4vra.org/people/BrunelleschiFilippo> a <http://xmlns.com/foaf/0.1/Person/Person> ;
+    vra:culture <http://ld4vra.org/conceptScheme/1001>  ;
+    vra:familyName "Brunelleschi" ;
+    vra:givenName "Filippo" ;
+    vra:earliestLifeDate "1377 ^^xsd:gYear" ;
+    vra:latestLifeDate "1446 ^^xsd:gYear" .
+
+# MICHELOZZO DI BARTOLOMEO
+<http://ld4vra.org/people/diBartolomeoMichelozzo> a <http://xmlns.com/foaf/0.1/Person/Person> ;
+    vra:culture <http://ld4vra.org/conceptScheme/1001>  ;
+    vra:familyName "di Bartolomeo" ;
+    vra:givenName "Michelozzo" ;
+    vra:earliestLifeDate "1396 ^^xsd:gYear" ;
+    vra:latestLifeDate "1472 ^^xsd:gYear" .
+
+# MICHELANGELO BUONARROTI
+<http://ld4vra.org/people/BuonarrottiMichelangelo> a <http://xmlns.com/foaf/0.1/Person/Person> ;
+    vra:culture <http://ld4vra.org/conceptScheme/1001>  ;
+    vra:familyName "Buonarroti" ;
+    vra:givenName "Michelangelo" ;
+    vra:earliestLifeDate "1475 ^^xsd:gYear" ;
+    vra:latestLifeDate "1564 ^^xsd:gYear" .
+
+# SAN LORENZO FACADE MODEL
+<http://ld4vra.org/resources/w_6> a <http://ld4vra.org/core#Work> ;
+    vra:architectIs vra:BuonarrotiMichelangelo ;
+    vra:culture <http://ld4vra.org/conceptScheme/1001> ;
+    vra:depthInCM "50 ^^xsd:decimal" ;
+    vra:heightInCM "216 ^^xsd:decimal" ;
+    vra:imageIs <http://ld4vra.org/resources/i_105> ;
+    vra:locationIs [ vra:locationType <http://vocab.getty.edu/aat/300150151> ;
+            vra:nation <http://vocab.getty.edu/tgn/1000080> ;
+            vra:place <http://vocab.getty.edu/tgn/7000457> ;
+            vra:region <http://vocab.getty.edu/tgn/7009760> ;
+            vra:site <http://ld4vra.org/conceptScheme/1043> ;
+            schema:continent <http://vocab.getty.edu/tgn/1000003> ] ;
+    vra:modelOf <http://ld4vra.org/resources/w_7> ;
+    vra:patronIs <http://ld4vra.org/people/LeoXPope> ;
+    vra:stylePeriod <http://vocab.getty.edu/aat/300021140> ;
+    vra:technique <http://vocab.getty.edu/aat/300054608> ;
+    vra:widthInCM "283 ^^xsd:decimal" ;
+    vra:workType <http://vocab.getty.edu/aat/300047753> ;
+    dcterms:medium <http://vocab.getty.edu/aat/300375376>, <http://vocab.getty.edu/aat/30001254>, <http://vocab.getty.edu/aat/300012620>, <http://vocab.getty.edu/aat/300015052>, <http://vocab.getty.edu/aat/300014952>, "other wood"@en, "traces of white lead paint and gesso"@en ;
+    dcterms:title "Wooden Model for the Façade of San Lorenzo, Florence"@en .
+
+# IMAGE OF FACADE MODEL
+<http://ld4vra.org/resources/i_105> a <http://ld4vra.org/core#Image> ;
+    vra:imageOf <http://ld4vra.org/resources/w_6> ;
+    vra:rights <http://ld4vra.org/conceptScheme/1042> ;
+    vra:sizeInKB "250 ^^xsd:decimal" ;
+    vra:source "http://www.casabuonarroti.it/" ;
+    vra:technique <http://ld4vra.org/conceptScheme/1034> ;
+    vra:workType <http://ld4vra.org/conceptScheme/1035> ;
+    dcterms:title "Overall facade view of the model"@en .
+
+# SAN LORENZO CHURCH
+<http://ld4vra.org/resources/w_7> a <http://ld4vra.org/core#Work> ;
+    vra:architectIs <http://ld4vra.org/people/BrunelleschiFilippo>,
+        <http://ld4vra.org/people/diBartolomeoMichelozzo> ;
+    vra:dateCreated "begun 1418 - ca. 1700 (inclusive)" ;
+    vra:hasLocation vra:site ;
+    vra:modelIs <http://ld4vra.org/resources/w_6> ;
+    vra:nation <http://vocab.getty.edu/tgn/1000080> ;
+    vra:place <http://vocab.getty.edu/tgn/7000457> ;
+    vra:preferredTitle "San Lorenzo, Florence" ;
+    vra:imageIs <http://ld4vra.org/resources/i_10> ;
+    vra:region <http://vocab.getty.edu/tgn/7009760> ;
+    vra:stylePeriod <http://vocab.getty.edu/aat/300021140> ;
+    vra:technique <http://vocab.getty.edu/aat/300054608> ;
+    vra:workType "buildings"; 
+    vra:workType <http://vocab.getty.edu/aat/300170443> ;
+    vra:workType <http://vocab.getty.edu/aat/300007391>; 
+    vra:workType <http://vocab.getty.edu/aat/300007466> ;
+    dcterms:medium <http://ld4vra.org/conceptScheme/1010>, <http://ld4vra.org/conceptScheme/1011>, <http://ld4vra.org/conceptScheme/1012> ;
+    dcterms:subject <http://ld4vra.org/conceptScheme/1017>, <http://ld4vra.org/conceptScheme/1018>, <http://ld4vra.org/conceptScheme/1028>, <http://vocab.getty.edu/ulan/500114961> ;
+    dcterms:title "Basilica di San Lorenzo"@it ;
+    schema:continent <http://vocab.getty.edu/tgn/1000003> .
+
+# IMAGE OF CHURCH 
+<http://ld4vra.org/resources/i_106> a vra:Image ;
+    dcterms:description "Facade was planned (ca. 1516-1521) by Michelangelo under the patronage of Pope Leo X but never completed."@en ;
+    vra:rights "© Davis Art Images" ;
+    vra:sizeInMB "18"^^xsd:decimal ;
+    vra:source "http://www.casabuonarroti.it/" ;
+    vra:technique <http://ld4vra.org/conceptScheme/1034> ;
+    vra:workType <http://ld4vra.org/conceptScheme/1035>;
+    dcterms:subject <http://ld4vra.org/conceptScheme/1027> ;
+    dcterms:title "Detail, unfinished facade"@en ;
+    vra:imageOf <http://ld4vra.org/resources/w_7> .

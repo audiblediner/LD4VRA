@@ -1,0 +1,489 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://ld4vra.org/conceptScheme/> a skos:ConceptScheme ;
+    dc:creator "Kelly Colht", "Cathy Hardin", "Liz Pritchard", "Emily Whitacre" ; 
+    dc:description "This controlled vocabulary defines concepts for use in VRA Linked Data." ; 
+    dc:title "LD4VRA Concept Scheme" .
+
+# CREATED CONCEPTS
+
+<http://ld4vra.org/conceptScheme/900> a skos:concept ;
+    skos:prefLabel "Agent"@en-US ;
+    skos:scopeNote "An individual that acts or has the power to act."@en-US ;
+    skos:narrower <http://ld4vra.org/conceptScheme/1000>, 
+        <http://ld4vra.org/conceptScheme/1001>, 
+        <http://ld4vra.org/conceptScheme/1002>, 
+        <http://ld4vra.org/conceptScheme/1003>,
+        <http://ld4vra.org/conceptScheme/1004>,
+        <http://ld4vra.org/conceptScheme/1005> ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1000> a skos:concept ;
+    skos:prefLabel "American"@en-US ;
+    skos:scopeNote "A person of or coming from the United States of America."@en-US ;
+    skos:broader <http://ld4vra.org/conceptScheme/900> ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1001> a skos:concept ;
+    skos:prefLabel "Italian"@en-US ;
+    skos:scopeNote "A person of or coming from Italy"@en-US ;
+    skos:broader <http://ld4vra.org/conceptScheme/900> ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+<http://ld4vra.org/conceptScheme/1002> a skos:concept ;
+    skos:prefLabel "architect"@en-US ;
+    skos:scopeNote "A person trained in or practicing architecture, which is the art of designing and building habitable structures, especially those considered to have aesthetic value."@en-US ;
+    skos:broader <http://ld4vra.org/conceptScheme/900> ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1003> a skos:concept ;
+    skos:prefLabel "author"@en-US ;
+    skos:scopeNote "A person responsible for the intellectual content of books or other writings, namely one who writes or otherwise composes books, articles, poems, plays, or other works which involve literary composition. The works are often, but not always, intended for publication."@en-US ;
+    skos:broader <http://ld4vra.org/conceptScheme/900> ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1004> a skos:concept ;
+    skos:prefLabel "illustrator"@en-US ;
+    skos:scopeNote "An artist who specializes in creating drawings, prints, or other pictures intended to elucidate a description, story, or other written material, usually in a book or periodical."@en-US ;
+    skos:broader <http://ld4vra.org/conceptScheme/900> ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1005> a skos:concept ;
+    skos:prefLabel "patron"@en-US ;
+    skos:scopeNote "One who uses their means or influence to benefit individuals, institutions, or causes; especially those who support the work of artists and writers, and including those who commission and pay for individual works."@en-US ;
+    skos:broader <http://ld4vra.org/conceptScheme/900> ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1006> a skos:concept ;
+    skos:prefLabel "American"@en-US ;
+    skos:scopeNote "Of or relating to the culture of the United States of America."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1007> a skos:concept ;
+    skos:prefLabel "French"@en-US ;
+    skos:scopeNote "Of or relating to the culture of France."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1008> a skos:concept ;
+    skos:prefLabel "Italian"@en-US ;
+    skos:scopeNote "Of or relating to the culture of Italy."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+<http://ld4vra.org/conceptScheme/1010> a skos:concept ;
+    skos:prefLabel "marble"@en-US ;
+    skos:scopeNote "A metamorphic, hard, dense, crystalline stone primarily composed of calcium carbonate; it is limestone or dolomite that has been metamorphosed with heat and pressure."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:exactMatch <http://vocab.getty.edu/aat/300011443> .
+    
+<http://ld4vra.org/conceptScheme/1011> a skos:concept ;
+    skos:prefLabel "pietra serena"@en-US ;
+    skos:scopeNote "A gray sandstone used extensively in Renaissance Florence for architectural details."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:broader <http://ld4vra.org/conceptScheme/1012> ;
+    skos:narrower <http://vocab.getty.edu/aat/300011376> .
+
+<http://ld4vra.org/conceptScheme/1012> a skos:concept ;
+    skos:prefLabel "stone"@en-US ;
+    skos:scopeNote "A hard substance that comes from the ground and is used for building, carving, etc."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:narrower <http://ld4vra.org/conceptScheme/1011> ;
+    skos:closeMatch <http://vocab.getty.edu/aat/300011443> .
+    
+<http://ld4vra.org/conceptScheme/1013> a skos:concept ;
+    skos:prefLabel "ink on paper"@en-US ;
+    skos:scopeNote "an artistic or writing medium that uses ink on paper."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:broader <http://vocab.getty.edu/aat/300015012> .
+    
+<http://ld4vra.org/conceptScheme/1014> a skos:concept ;
+    skos:prefLabel "ink on parchment"@en-US ;
+    skos:scopeNote "an artistic or writing medium that uses ink on parchment."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:broader <http://vocab.getty.edu/aat/300015012> .
+    
+<http://ld4vra.org/conceptScheme/1015> a skos:concept ;
+    skos:prefLabel "watercolor and pencil on board"@en-US ;
+    skos:scopeNote "A mixed media artistic technique that uses both watercolor and pencil."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1016> a skos:concept ;
+    skos:prefLabel "public domain"@en-US ;
+    skos:scopeNote "The status of publications, products, and processes that are not protected under patent or copyright."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+<http://ld4vra.org/conceptScheme/1017> a skos:concept ;
+    skos:prefLabel "architectural exteriors"@en-US ;
+    skos:scopeNote "The design of a outside facing surface in architecture."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:broader <http://vocab.getty.edu/aat/300263552> .
+    
+<http://ld4vra.org/conceptScheme/1018> a skos:concept ;
+    skos:prefLabel "architectural interiors"@en-US ;
+    skos:scopeNote "The design of a space which has been created by structural boundaries."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:broader <http://vocab.getty.edu/aat/300263552> .
+    
+<http://ld4vra.org/conceptScheme/1019> a skos:concept ;
+    skos:prefLabel "architectural modeling"@en-US ;
+    skos:scopeNote "A type of modeling in which a scale model is built to study aspects of an architectural design."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:broader <http://vocab.getty.edu/aat/300263552> .
+
+<http://ld4vra.org/conceptScheme/1020> a skos:concept  ; 
+	skos:prefLabel "calligraphy"@en-US  ;
+	skos:scopeNote "Related to works composed primarily of beautiful, elegant letters or flourishes that are typically created by hand with a pen, either in unjoined characters or in cursive writing."@en-US  ; 	
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1021> a skos:concept  ; 
+	skos:prefLabel "carpentry"@en-US , "carpenteria"@it ;
+	skos:scopeNote "Related to works or parts of works made with wood, especially such work used in the construction of buildings and other structures."@en-US ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1022> a skos:concept  ; 
+	skos:prefLabel "colonies"@en-US  ;
+	skos:scopeNote "Related to a body of people living in a new territory but retaining ties with the parent state or  the territory inhabited by such a body."@en-US ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1023> a skos:concept  ; 
+	skos:prefLabel "construction models"@en-US ;
+	skos:scopeNote "Representations that visualize architectural projects in three dimensions, often including a representation of the surrounding site or context, and often, but not necessarily, built to scale."@en-US ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1024> a skos:concept  ; 
+	skos:prefLabel "dissolution"@en-US  ;
+	skos:scopeNote "Representative of the process of making something slowly end or disappear."@en-US  ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1025> a skos:concept ; 
+	skos:prefLabel "England"@en-US ;
+	skos:scopeNote "A country in the United Kingdom."@en-US ; 		
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1026> a skos:concept ; 
+	skos:prefLabel "independence"@en-US ;
+	skos:scopeNote "Related to the state of being politically independent"@en-US ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1028> a skos:concept ; 
+	skos:prefLabel "rulers and leaders"@en-US ;
+	skos:scopeNote "Related to people assigned as a direct authority over others."@en-US ; 		
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1029> a skos:concept ; 
+	skos:prefLabel "San Lorenzo (Florence, Italy)"@en-US ;
+	skos:scopeNote "Related to the San Lorenzo Basilica in Florence, Italy."@en-US ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1030> a skos:concept ;
+    skos:prefLabel "separation"@en-US ;
+    skos:scopeNote "The action or state of moving or being moved apart."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1031> a skos:concept ;
+    skos:prefLabel "social contract"@en-US ;
+    skos:scopeNote "An implicit agreement among the members of a society to cooperate for social benefit"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+<http://ld4vra.org/conceptScheme/1032> a skos:concept ;
+    skos:prefLabel "textual work"@en-US ;
+    skos:scopeNote "A work relating to or based on a piece of writing"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1033> a skos:concept ;
+    skos:prefLabel "typography"@en-US ;
+    skos:scopeNote "The style, arrangement, or appearance of printed letters on a page"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1034> a skos:concept ;
+    skos:prefLabel "digital imaging"@en-US ;
+    skos:scopeNote "The creation of digital images"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1035> a skos:concept ;
+    skos:prefLabel "digital image"@en-US ;
+    skos:scopeNote "An electronic snapshot taken of a scene or scanned from documents, such as photographs, manuscripts, printed texts, and artwork"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1036> a skos:concept ;
+    skos:prefLabel "Swiss"@en-US ;
+    skos:scopeNote "Of or relating to the cultural of Switzerland"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+<http://ld4vra.org/conceptScheme/1037> a skos:concept ;
+    skos:prefLabel "Santa Barabara Museum of Art"@en-US ;
+    skos:scopeNote "Museum and Repository of Art in Santa Barbara, CA"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1038> a skos:concept ;
+    skos:prefLabel "Montmarte"@fr;
+    skos:scopeNote "District in Paris, France"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1039> a skos:concept ;
+    skos:prefLabel "San Lorenzo"@en-US ;
+    skos:scopeNote "Location in Italy"@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+<http://ld4vra.org/conceptScheme/1041> a skos:concept ;
+    skos:prefLabel "National Portrait Gallery [Smithsonian Institution]"@en-US ;
+    skos:scopeNote "The National Portrait Gallery is a historic art museum in Washington, D.C. which focuses on images of famous Americans. It is part of the Smithsonian Institution."@en-US ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1042> a skos:concept ; 
+	skos:prefLabel "Undetermined"@en-US ;
+	skos:scopeNote "Refers to when the rights status of a resource in undetermined."@en-US ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+<http://ld4vra.org/conceptScheme/1043> a skos:concept ; 
+	skos:prefLabel "Casa Buonarroti"@en-US ;
+	skos:scopeNote "The site of a museum in Florence once owned by Michelangelo Buonarroti and now a museum housing his works."@en-US ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# BORROWED CONCEPTS
+
+# Art Nouveau
+<http://vocab.getty.edu/aat/300021430> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+ 
+# Artists' studios
+<http://id.loc.gov/authorities/subjects/sh85008315> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# basilica
+<http://vocab.getty.edu/aat/300170443> a skos:concept ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:boarder <http://vocab.getty.edu/aat/300007391> .
+            
+# buildings (structures)
+<http://vocab.getty.edu/aat/300004792> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+	skos:narrower <http://vocab.getty.edu/aat/300150151> ;
+	skos:narrowerTransitive <http://vocab.getty.edu/aat/300007391>.
+
+# Buonarroti, Michelangelo
+<http://vocab.getty.edu/ulan/500010654> a skos:concept ;
+    skos:exactMatch <http://ld4vra.org/people/BuonarrottiMichelangelo> ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# California
+<http://vocab.getty.edu/tgn/7007157> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# calligraphy (process)
+<http://vocab.getty.edu/aat/300053162> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# Casa Buonarroti
+<http://id.loc.gov/authorities/names/n85324477?> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Chat noir
+<http://id.loc.gov/authorities/names/n82148021> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# church
+<http://vocab.getty.edu/aat/300007466> a skos:concept ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+    skos:broader <http://vocab.getty.edu/aat/300007391> .
+            
+# construction (assembling)
+<http://vocab.getty.edu/aat/300054608> a skos:concept ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Cronkite, Walter
+<http://id.loc.gov/authorities/names/n79109028.html> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# cypress 
+<http://vocab.getty.edu/aat/300012540> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+	skos:broader <http://vocab.getty.edu/aat/300012510> .
+
+# District of Columbia
+<http://vocab.getty.edu/tgn/7015717> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# drawing (image making)
+<http://vocab.getty.edu/aat/300054196> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Eighteenth century
+<http://id.loc.gov/authorities/subjects/sh85041401> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Europe
+<http://vocab.getty.edu/tgn/1000003> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# Filippo Brunelleschi
+<http://vocab.getty.edu/ulan/500018169> a skos:concept ;
+    skos:exactMatch <http://ld4vra.org/people/BrunelleschiFilippo> ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Florence 
+<http://vocab.getty.edu/tgn/7000457> a skos:concept ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# France
+<http://vocab.getty.edu/tgn/1000070> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# gesso
+<http://vocab.getty.edu/aat/300014952> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Île-de-France
+<http://vocab.getty.edu/tgn/7002883> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# illustration (layout feature)
+<http://vocab.getty.edu/aat/300015578> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Italy 
+<http://vocab.getty.edu/tgn/1000080> a skos:concept ; 
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Jefferson, Thomas
+<http://vocab.getty.edu/ulan/500017255> a skos:concept ;
+    skos:exactMatch <http://ld4vra.org/people/JeffersonThomas> ; 
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# lead paint 
+<http://vocab.getty.edu/aat/300015052> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Leo X, Pope
+<http://vocab.getty.edu/ulan/500121783> a skos:concept ;
+    skos:exactMatch <http://ld4vra.org/people/LeoXPope> ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# manuscript (document genre) 
+<http://vocab.getty.edu/aat/300028569> a skos:concept ; 
+    skos:inScheme <http://ld4vra.org/conceptScheme/>  .
+            
+# Medici family 
+<http://vocab.getty.edu/ulan/500114961> a skos:concept ; 
+    skos:inScheme <http://ld4vra.org/conceptScheme/>  .
+                
+# model (representation)
+<http://vocab.getty.edu/aat/300047753> a skos:concept ; 
+    skos:inScheme <http://ld4vra.org/conceptScheme/>  .# Michelozzo di Bartolomeo
+
+    <http://vocab.getty.edu/ulan/500032603> a skos:concept ;
+    skos:exactMatch <http://ld4vra.org/people/diBartolomeoMichelozzo>  ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Nineteenth century
+<http://id.loc.gov/authorities/subjects/sh85091984> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# North and Central America
+<http://vocab.getty.edu/tgn/1000001> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# offset printing
+<http://vocab.getty.edu/aat/300053279> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# painting and painting techniques
+<http://vocab.getty.edu/aat/300149157> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Paris
+<http://vocab.getty.edu/tgn/7008038> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# pine
+<http://vocab.getty.edu/aat/300012620> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+	skos:broader <http://vocab.getty.edu/aat/300012510> .
+
+# poplar 
+<http://vocab.getty.edu/aat/300375376> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+   
+# poster
+<http://vocab.getty.edu/aat/300027221> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# religious buildings
+<http://vocab.getty.edu/aat/300007391> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+	skos:narrower <http://vocab.getty.edu/aat/300170443> ;
+	skos:narrower <http://vocab.getty.edu/aat/300007466> ;
+	skos:broaderTransitive <http://vocab.getty.edu/aat/300004792> .
+
+# Renaissance
+<http://vocab.getty.edu/aat/300021140> a skos:concept ;
+    skos:inScheme <http://ld4vra.org/conceptScheme/>  .
+
+# repositories (storage facilities)
+<http://vocab.getty.edu/aat/300150151> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+	skos:broader <http://vocab.getty.edu/aat/300004792> .
+
+# Salis, Rodolphe, 1851-1897
+<http://id.loc.gov/authorities/names/n82142925> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# Santa Barbara
+<http://vocab.getty.edu/tgn/7017752> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# Steinlen, Théophile Alexandre
+<http://vocab.getty.edu/ulan/500017451> a skos:concept ;
+    skos:exactMatch <http://ld4vra.org/people/SteinlenTheophileAlexandre> ; 
+    skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# soft wood
+<http://vocab.getty.edu/aat/300012510> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> ;
+	skos:narrower <http://vocab.getty.edu/aat/300012620> ;
+	skos:narrower <http://vocab.getty.edu/aat/300012540> .
+
+# Television news anchors
+<http://id.loc.gov/authorities/subjects/sh90003247.html> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# Time, the weekly news-magazine
+<http://id.loc.gov/authorities/names/n94056291> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Tuscany 
+    <http://vocab.getty.edu/tgn/7009760> a skos:concept ; 
+        skos:inScheme <http://ld4vra.org/conceptScheme/>  .
+
+# Twentieth century
+<http://id.loc.gov/authorities/subjects/sh85139020> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# United States
+<http://vocab.getty.edu/tgn/7012149> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# United States. Continental Congress
+<http://id.loc.gov/authorities/subjects/sh80039712> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# United States History Revolution, 1775-1783
+<http://id.loc.gov/authorities/subjects/sh85140139> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Vickrey, Robert Remsen
+<http://vocab.getty.edu/ulan/500021398> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# Washington
+<http://vocab.getty.edu/tgn/7013962> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+
+# watercolor (painting)
+<http://vocab.getty.edu/tgn/300078925> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
+    
+# writing (process)
+<http://vocab.getty.edu/aat/300054698> a skos:concept ;
+	skos:inScheme <http://ld4vra.org/conceptScheme/> .
